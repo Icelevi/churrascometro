@@ -119,7 +119,7 @@ html{
 }
 
 .inputs_style{
-    width: 5%;
+    width: 5rem;
     border: none;
     border-bottom: 1px solid black;
     font-size: 1.5rem;
