@@ -1,0 +1,395 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial Black;
+}
+html{
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: bebasNeue;
+    src: url("/fonts/BebasNeue-Regular.ttf");
+ }
+
+
+ .line{
+     height: 1px;
+     width:  50%;
+     background-color: black;
+ }
+ .line_inputs{
+    width:  50%;
+    height: 1px;
+    background-color: black;
+    margin-top: 4rem;
+ }
+ #conteudo_inicial{
+     width: 100%;
+ }
+#titulo_container{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    
+}
+ #titulo_principal{
+    color: white;
+    font-size: 4.5rem;
+    float: left;
+    margin-left: 1%;
+ }
+ #carne_titulo_icon{
+     width: 6rem;
+    position: relative;
+    margin-top: 1%;
+    
+}
+ #churrasqueira_img{
+    width:23rem;  
+    right: 3%;
+    z-index: 0;
+    position: absolute;
+    bottom: 15%;    
+}
+ #subtitulo{
+    color: white;
+    font-size: 2.2rem;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    left: 1.5%;
+    z-index: 1;
+    text-align: left;
+
+ }
+ #explicacao_container{
+    width: 40%;
+    z-index: 5;
+    position: absolute;
+    bottom: 13%;
+    left: 1.5%;
+    text-align: left;
+
+}
+ #explicacao_titulo{
+    color: #3D3D3B;
+    font-size: 1.8rem;
+    z-index: 5;
+    text-align: left;
+ }
+ #explicacao_paragrafo{
+    color: #3D3D3B;
+    font-size: 1.5rem;
+ }
+ #explicacao_paragrafo_2{
+    font-size: 1.4rem;
+ }
+ #primeiro_container{
+    box-sizing: border-box;
+}
+#sub_primeiro_container{
+    background-color: #F7BA14;
+    height: 90%;
+}
+ #segundo_container{
+     height: auto;
+     background-color: white;
+     z-index: 1;
+     position: relative;
+ }
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.headers_inputs{
+    margin-left: 10px;
+    color: #B81516;
+    font-size: 1.5rem;
+}
+#corte_amarelo{
+    position: absolute;
+    right: 0;
+    bottom: auto;
+    z-index: 10;
+    
+}
+
+.inputs_style{
+    width: 5%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    display: block;
+    margin-left: 10%;
+    text-align: center;
+}
+.checkbox_labels{
+    font-size: 1.4rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: gray;
+    cursor: pointer;
+    display: inline-block;
+}
+input[type="radio"]:hover {
+    background-color: #a5a5a5;
+}
+input[type="radio"]:checked {
+    background-color: #B81516;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: gray;
+    cursor: pointer;
+    display: inline-block;
+}
+#quarto_container{
+    height: 500px;
+}
+#terceiro_container{
+    height: auto;
+}
+#resultado{
+background-color: #B81516;
+height: 100%;
+color: white;
+}
+ul{
+    list-style: none;
+}
+
+#lista_resultado{
+   width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+.lista_resultado_secundária{
+    display:inline-block;
+    position: relative;
+    top: 0;
+    height: 50%;
+    width: 30%;
+}
+.lista_resultado_terciária{
+    position: absolute;
+    width: 100%;
+}
+#ul_line1{
+    display: none;
+    height: 1px;
+    width: 27%;
+    background-color: white;
+ 
+}
+#ul_line2{
+    display: none;
+    height: 1px;
+    width: 25%;
+    background-color: white;
+    
+    
+   
+}
+footer{
+    height: 10vw;
+    width: 100%;
+    background-color: #3D3D3B;
+}
+.checkbox_container{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #a5a5a5;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #B81516;
+}
+
+#btn_calcular{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #B81516;
+    color: white;
+    cursor: pointer;
+}
+#btn_calcular:hover{
+    background-color: #6b0e0e;
+}
+.itens{
+    display: none;
+}
+
+#adultoscerveja{
+    display: none;
+}
+@media screen and (max-width: 1230px){
+    html{
+        font-size: 15px;
+    }
+    }
+@media screen and (max-width: 1040px){
+    html{
+        font-size: 14px;
+    }
+ 
+    }
+@media screen and (max-width: 960px){
+    html{
+        font-size: 13px;
+    }
+    #lista_resultado{
+        font-size: 1.8rem;
+    }
+    }
+@media screen and (max-width: 840px){
+    html{
+        font-size: 12px;
+    }
+
+ 
+
+    }
+@media screen and (max-width: 750px){
+    #subtitulo{
+        width: 50%;
+        
+       }
+    #titulo_principal{
+        font-size: 4rem;
+    }
+    #titulo_container{
+        height: 70px;
+    }
+   
+    
+    }
+    @media screen and (max-width: 650px){
+      
+    #corte_amarelo{
+    display: none;
+    }
+    #quarto_container{
+        height: 100vw;
+    }
+    .lista_resultado_secundária{
+    display:block;
+    width: 100%;
+    height: 30%;
+    font-size: 2rem;
+
+    }
+    .header_da_lista{
+        display: block;
+        margin-top: 10px;
+    }
+    #ul_line1{
+        display: block;
+        transform: rotate(0deg);
+        transform: translate(-50%, -50%);  
+        left: 50%;
+        position: relative;
+        margin-top: 30px;
+    }
+    #ul_line2{
+        display: block;
+        transform: rotate(0deg);
+        transform: translate(-50%, -50%); 
+        left: 50%;
+        position: relative;
+    }
+    #titulo_principal{
+        font-size: 3.5rem;
+    }
+    #carne_titulo_icon{
+     width: 5rem;
+    }
+    #subtitulo{
+        width: 80%;
+        font-size: 2.1rem;
+       }
+
+    }
+    @media screen and (max-width: 500px){
+        
+        #titulo_principal{
+            font-size: 3rem;
+        }
+        #carne_titulo_icon{
+            width: 4.5rem;
+           }
+        #subtitulo{
+            font-size: 2rem;
+            width: 95%;
+            position: relative;
+           }
+    }
+    @media screen and (max-width: 440px){
+        
+        #titulo_principal{
+            font-size: 2.5rem;
+        }
+        #carne_titulo_icon{
+            width: 4rem;
+           }
+           #explicacao_container{
+            width: 95%;
+            position: relative;
+        }
+        #churrasqueira_img{
+        position: relative;
+        left: 50%;    
+        transform: translate(-50%, 0);   }
+       #primeiro_container{
+        height: auto;   
+        }
+        #btn_calcular{
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+        .lista_resultado_secundária{
+            font-size: 1.7rem;
+        }
+    }
+    @media screen and (max-width: 380px){
+        #titulo_principal{
+            font-size: 2.3rem;
+        }
+        #carne_titulo_icon{
+            width: 3.8rem;
+           }
+     
+    }
+    @media screen and (max-width: 335px){
+        #titulo_principal{
+            font-size: 2.1rem;
+        }
+        #carne_titulo_icon{
+            width: 3.6rem;
+           }
+     
+    }
