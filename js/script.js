@@ -90,7 +90,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas)
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`
         itemLista.style.display="block"
-        console.log(itemLista)
     }
     else if (duracaocheck.checked && cortecheck.checked && totalChecks == 4) {
         quantidade = qtd2
@@ -99,7 +98,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista);
 
     }
     else if (duracaocheck.checked && cortecheck.checked && totalChecks == 3) {
@@ -109,7 +107,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista);
     }
     else if (duracaocheck.checked && cortecheck.checked && totalChecks == 2) {
         quantidade = qtd4
@@ -118,7 +115,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista);
     }
 
     else if (duracaocheck.checked && cortecheck.checked) {
@@ -128,7 +124,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista);
     }
 
     //ADICIONAR QUANTIDADE DE CARNE COM A DURAÇÃO COM MENOS DE 6 HORAS
@@ -139,7 +134,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista);
     }
 
     else if (cortecheck.checked && totalChecks == 4) {
@@ -149,7 +143,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista);
     }
 
     else if (cortecheck.checked && totalChecks == 3) {
@@ -159,8 +152,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-
-        console.log(itemLista)
     }
 
     else if (cortecheck.checked && totalChecks == 2) {
@@ -170,7 +161,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas);
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`;
         itemLista.style.display="block";
-        console.log(itemLista)
     }
 
     else if (cortecheck.checked) {
@@ -180,7 +170,6 @@ function addQtd(duracaocheck, cortecheck, quantidade, itemLista, tipoDeCarne, qt
         let total = (quantidade * adultos) + (quantidade / 2 * criancas)
         itemLista.innerHTML = `<p> ${(total / 1000).toFixed(2)}kg de ${tipoDeCarne} </p>`
         itemLista.style.display="block"
-        console.log(itemLista)
     }
 }
 
@@ -244,7 +233,6 @@ function addQtdAgua(duracaocheck) {
         let total = (qtdAgua * adultos) + (qtdAgua / 2 * criancas)
         aguali.innerHTML = `<p> ${(total / 1000).toFixed(2)}L de Agua </p>`
         aguali.style.display = "block"
-        console.log(qtdAgua)
     }
     else if (agua.checked) {
         qtdAgua = 700   
@@ -253,7 +241,6 @@ function addQtdAgua(duracaocheck) {
         let total = (qtdAgua * adultos) + (qtdAgua / 2 * criancas)
         aguali.innerHTML = `<p>${(total / 1000).toFixed(2)}L de Agua </p>`
         aguali.style.display = "block"
-        console.log(qtdAgua)
     }
 }
 
@@ -269,7 +256,6 @@ function addQtdFarofa(duracaocheck) {
         let total = (qtdFarofa * adultos) + (qtdFarofa / 2 * criancas)
         farofali.innerHTML = `<p> ${total}g de farofa</p>`
         farofali.style.display = "block"
-        console.log(qtdFarofa)
     }
     else if (farofa.checked) {
         qtdFarofa = 50
@@ -278,7 +264,6 @@ function addQtdFarofa(duracaocheck) {
         let total = (qtdFarofa * adultos) + (qtdFarofa / 2 * criancas)
         farofali.innerHTML = `<p>${total}g de farofa </p>`
         farofali.style.display = "block"
-        console.log(qtdFarofa)
     }
 }
 
@@ -292,7 +277,6 @@ function addQtdVinagrete(duracaocheck) {
         let total = (qtdVinagrete * adultos) + (qtdVinagrete / 2 * criancas)
         vinagreteli.innerHTML = `<p> ${total}g de vinagrete</p>`
         vinagreteli.style.display = "block"
-        console.log(qtdVinagrete)
     }
     else if (vinagrete.checked) {
         qtdVinagrete = 80
@@ -301,7 +285,6 @@ function addQtdVinagrete(duracaocheck) {
         let total = (qtdVinagrete * adultos) + (qtdVinagrete / 2 * criancas)
         vinagreteli.innerHTML = `<p>${total}g de vinagrete </p>`
         vinagreteli.style.display = "block"
-        console.log(qtdVinagrete)
     }
 }
 
