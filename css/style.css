@@ -1,4 +1,7 @@
-
+:root{
+    --color-red: #B81516;
+    --color-gray-black: #3D3D3B;
+}
 *{
     padding: 0;
     margin: 0;
@@ -76,13 +79,13 @@ html{
 
 }
  #explicacao_titulo{
-    color: #3D3D3B;
+    color: var(--color-gray-black);
     font-size: 1.8rem;
     z-index: 5;
     text-align: left;
  }
  #explicacao_paragrafo{
-    color: #3D3D3B;
+    color: var(--color-gray-black);
     font-size: 1.5rem;
  }
  #explicacao_paragrafo_2{
@@ -107,7 +110,7 @@ html{
 }
 .headers_inputs{
     margin-left: 10px;
-    color: #B81516;
+    color: var(--color-red);
     font-size: 1.5rem;
 }
 #corte_amarelo{
@@ -145,7 +148,7 @@ input[type="radio"]:hover {
     background-color: #a5a5a5;
 }
 input[type="radio"]:checked {
-    background-color: #B81516;
+    background-color: var(--color-red);
 }
 
 
@@ -165,7 +168,7 @@ input[type="checkbox"] {
     height: auto;
 }
 #resultado{
-background-color: #B81516;
+background-color: var(--color-red);
 height: 100%;
 color: white;
 }
@@ -210,7 +213,7 @@ ul{
 footer{
     height: 10vw;
     width: 100%;
-    background-color: #3D3D3B;
+    background-color: var(--color-gray-black);
 }
 .checkbox_container{
     margin-left: 10px;
@@ -222,7 +225,7 @@ input[type="checkbox"]:hover {
 }
 
 input[type="checkbox"]:checked {
-    background-color: #B81516;
+    background-color: var(--color-red);
 }
 
 #btn_calcular{
@@ -233,7 +236,7 @@ input[type="checkbox"]:checked {
     font-size: 1.5rem;
     border-radius: 10px;
     border: none;
-    background-color: #B81516;
+    background-color: var(--color-red);
     color: white;
     cursor: pointer;
 }
